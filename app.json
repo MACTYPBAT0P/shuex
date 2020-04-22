@@ -1,0 +1,26 @@
+{
+  "name": "shuex",
+  "description": "馃拰 袪械泄写 斜芯褌 写谢褟 袙袣芯薪褌邪泻褌械 薪邪 Python",
+  "repository": "https://github.com/shueteam/shuex",
+  "logo": "https://sun9-68.userapi.com/c857720/v857720045/1457b9/H9fMEyw9G5c.jpg",
+  "env": {
+    "token": {
+      "description": "孝芯泻械薪 褋芯芯斜褖械褋褌胁邪 袙袣芯薪褌邪泻褌械"
+    },
+    "message_text": {
+      "description": "孝械泻褋褌 褋芯芯斜褖械薪懈褟. 袝褋谢懈 泻芯褉芯褔械 4096 斜邪泄褌芯胁 - 斜褍写械褌 锌芯胁褌芯褉褢薪 屑邪泻褋懈屑邪谢褜薪芯械 泻芯谢懈褔械褋褌胁芯 褉邪蟹",
+      "value": "馃"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
